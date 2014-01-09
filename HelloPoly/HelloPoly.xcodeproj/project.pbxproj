@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8162761C187F3F8E00B140E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8162761B187F3F8E00B140E0 /* Foundation.framework */; };
+		8162761E187F3F8E00B140E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8162761D187F3F8E00B140E0 /* CoreGraphics.framework */; };
+		81627620187F3F8E00B140E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8162761F187F3F8E00B140E0 /* UIKit.framework */; };
+		81627626187F3F8E00B140E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81627624187F3F8E00B140E0 /* InfoPlist.strings */; };
+		81627628187F3F8E00B140E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81627627187F3F8E00B140E0 /* main.m */; };
+		8162762C187F3F8E00B140E0 /* HelloPolyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8162762B187F3F8E00B140E0 /* HelloPolyAppDelegate.m */; };
+		8162762F187F3F8E00B140E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8162762D187F3F8E00B140E0 /* Main.storyboard */; };
+		81627634187F3F8E00B140E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81627633187F3F8E00B140E0 /* Images.xcassets */; };
+		8162763B187F3F8E00B140E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8162763A187F3F8E00B140E0 /* XCTest.framework */; };
+		8162763C187F3F8E00B140E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8162761B187F3F8E00B140E0 /* Foundation.framework */; };
+		8162763D187F3F8E00B140E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8162761F187F3F8E00B140E0 /* UIKit.framework */; };
+		81627645187F3F8E00B140E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81627643187F3F8E00B140E0 /* InfoPlist.strings */; };
+		81627647187F3F8E00B140E0 /* HelloPolyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81627646187F3F8E00B140E0 /* HelloPolyTests.m */; };
+		81627653187F4A7700B140E0 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 81627652187F4A7700B140E0 /* PolygonShape.m */; };
+		81627656187F4AB100B140E0 /* HelloPolyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81627655187F4AB100B140E0 /* HelloPolyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8162763E187F3F8E00B140E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81627610187F3F8E00B140E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81627617187F3F8E00B140E0;
+			remoteInfo = HelloPoly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81627618187F3F8E00B140E0 /* HelloPoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPoly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8162761B187F3F8E00B140E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8162761D187F3F8E00B140E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8162761F187F3F8E00B140E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81627623187F3F8E00B140E0 /* HelloPoly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPoly-Info.plist"; sourceTree = "<group>"; };
+		81627625187F3F8E00B140E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81627627187F3F8E00B140E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81627629187F3F8E00B140E0 /* HelloPoly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloPoly-Prefix.pch"; sourceTree = "<group>"; };
+		8162762A187F3F8E00B140E0 /* HelloPolyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPolyAppDelegate.h; sourceTree = "<group>"; };
+		8162762B187F3F8E00B140E0 /* HelloPolyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyAppDelegate.m; sourceTree = "<group>"; };
+		8162762E187F3F8E00B140E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81627633187F3F8E00B140E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81627639187F3F8E00B140E0 /* HelloPolyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPolyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8162763A187F3F8E00B140E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81627642187F3F8E00B140E0 /* HelloPolyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPolyTests-Info.plist"; sourceTree = "<group>"; };
+		81627644187F3F8E00B140E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81627646187F3F8E00B140E0 /* HelloPolyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPolyTests.m; sourceTree = "<group>"; };
+		81627651187F4A7700B140E0 /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonShape.h; sourceTree = "<group>"; };
+		81627652187F4A7700B140E0 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
+		81627654187F4AB100B140E0 /* HelloPolyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPolyViewController.h; sourceTree = "<group>"; };
+		81627655187F4AB100B140E0 /* HelloPolyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPolyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81627615187F3F8E00B140E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8162761E187F3F8E00B140E0 /* CoreGraphics.framework in Frameworks */,
+				81627620187F3F8E00B140E0 /* UIKit.framework in Frameworks */,
+				8162761C187F3F8E00B140E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81627636187F3F8E00B140E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8162763B187F3F8E00B140E0 /* XCTest.framework in Frameworks */,
+				8162763D187F3F8E00B140E0 /* UIKit.framework in Frameworks */,
+				8162763C187F3F8E00B140E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8162760F187F3F8E00B140E0 = {
+			isa = PBXGroup;
+			children = (
+				81627621187F3F8E00B140E0 /* HelloPoly */,
+				81627640187F3F8E00B140E0 /* HelloPolyTests */,
+				8162761A187F3F8E00B140E0 /* Frameworks */,
+				81627619187F3F8E00B140E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81627619187F3F8E00B140E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81627618187F3F8E00B140E0 /* HelloPoly.app */,
+				81627639187F3F8E00B140E0 /* HelloPolyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8162761A187F3F8E00B140E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8162761B187F3F8E00B140E0 /* Foundation.framework */,
+				8162761D187F3F8E00B140E0 /* CoreGraphics.framework */,
+				8162761F187F3F8E00B140E0 /* UIKit.framework */,
+				8162763A187F3F8E00B140E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81627621187F3F8E00B140E0 /* HelloPoly */ = {
+			isa = PBXGroup;
+			children = (
+				81627650187F44FA00B140E0 /* HelloPolyMVC */,
+				8162762D187F3F8E00B140E0 /* Main.storyboard */,
+				81627633187F3F8E00B140E0 /* Images.xcassets */,
+				81627622187F3F8E00B140E0 /* Supporting Files */,
+			);
+			path = HelloPoly;
+			sourceTree = "<group>";
+		};
+		81627622187F3F8E00B140E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8162762A187F3F8E00B140E0 /* HelloPolyAppDelegate.h */,
+				8162762B187F3F8E00B140E0 /* HelloPolyAppDelegate.m */,
+				81627623187F3F8E00B140E0 /* HelloPoly-Info.plist */,
+				81627624187F3F8E00B140E0 /* InfoPlist.strings */,
+				81627627187F3F8E00B140E0 /* main.m */,
+				81627629187F3F8E00B140E0 /* HelloPoly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81627640187F3F8E00B140E0 /* HelloPolyTests */ = {
+			isa = PBXGroup;
+			children = (
+				81627646187F3F8E00B140E0 /* HelloPolyTests.m */,
+				81627641187F3F8E00B140E0 /* Supporting Files */,
+			);
+			path = HelloPolyTests;
+			sourceTree = "<group>";
+		};
+		81627641187F3F8E00B140E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81627642187F3F8E00B140E0 /* HelloPolyTests-Info.plist */,
+				81627643187F3F8E00B140E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81627650187F44FA00B140E0 /* HelloPolyMVC */ = {
+			isa = PBXGroup;
+			children = (
+				81627654187F4AB100B140E0 /* HelloPolyViewController.h */,
+				81627655187F4AB100B140E0 /* HelloPolyViewController.m */,
+				81627651187F4A7700B140E0 /* PolygonShape.h */,
+				81627652187F4A7700B140E0 /* PolygonShape.m */,
+			);
+			name = HelloPolyMVC;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81627617187F3F8E00B140E0 /* HelloPoly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8162764A187F3F8E00B140E0 /* Build configuration list for PBXNativeTarget "HelloPoly" */;
+			buildPhases = (
+				81627614187F3F8E00B140E0 /* Sources */,
+				81627615187F3F8E00B140E0 /* Frameworks */,
+				81627616187F3F8E00B140E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloPoly;
+			productName = HelloPoly;
+			productReference = 81627618187F3F8E00B140E0 /* HelloPoly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81627638187F3F8E00B140E0 /* HelloPolyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8162764D187F3F8E00B140E0 /* Build configuration list for PBXNativeTarget "HelloPolyTests" */;
+			buildPhases = (
+				81627635187F3F8E00B140E0 /* Sources */,
+				81627636187F3F8E00B140E0 /* Frameworks */,
+				81627637187F3F8E00B140E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8162763F187F3F8E00B140E0 /* PBXTargetDependency */,
+			);
+			name = HelloPolyTests;
+			productName = HelloPolyTests;
+			productReference = 81627639187F3F8E00B140E0 /* HelloPolyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81627610187F3F8E00B140E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloPoly;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = comp41550;
+				TargetAttributes = {
+					81627638187F3F8E00B140E0 = {
+						TestTargetID = 81627617187F3F8E00B140E0;
+					};
+				};
+			};
+			buildConfigurationList = 81627613187F3F8E00B140E0 /* Build configuration list for PBXProject "HelloPoly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8162760F187F3F8E00B140E0;
+			productRefGroup = 81627619187F3F8E00B140E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81627617187F3F8E00B140E0 /* HelloPoly */,
+				81627638187F3F8E00B140E0 /* HelloPolyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81627616187F3F8E00B140E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81627634187F3F8E00B140E0 /* Images.xcassets in Resources */,
+				81627626187F3F8E00B140E0 /* InfoPlist.strings in Resources */,
+				8162762F187F3F8E00B140E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81627637187F3F8E00B140E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81627645187F3F8E00B140E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81627614187F3F8E00B140E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81627653187F4A7700B140E0 /* PolygonShape.m in Sources */,
+				81627628187F3F8E00B140E0 /* main.m in Sources */,
+				8162762C187F3F8E00B140E0 /* HelloPolyAppDelegate.m in Sources */,
+				81627656187F4AB100B140E0 /* HelloPolyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81627635187F3F8E00B140E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81627647187F3F8E00B140E0 /* HelloPolyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8162763F187F3F8E00B140E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81627617187F3F8E00B140E0 /* HelloPoly */;
+			targetProxy = 8162763E187F3F8E00B140E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81627624187F3F8E00B140E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81627625187F3F8E00B140E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8162762D187F3F8E00B140E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8162762E187F3F8E00B140E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81627643187F3F8E00B140E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81627644187F3F8E00B140E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81627648187F3F8E00B140E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81627649187F3F8E00B140E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8162764B187F3F8E00B140E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly/HelloPoly-Prefix.pch";
+				INFOPLIST_FILE = "HelloPoly/HelloPoly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8162764C187F3F8E00B140E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly/HelloPoly-Prefix.pch";
+				INFOPLIST_FILE = "HelloPoly/HelloPoly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8162764E187F3F8E00B140E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloPoly.app/HelloPoly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly/HelloPoly-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloPolyTests/HelloPolyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8162764F187F3F8E00B140E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloPoly.app/HelloPoly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly/HelloPoly-Prefix.pch";
+				INFOPLIST_FILE = "HelloPolyTests/HelloPolyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81627613187F3F8E00B140E0 /* Build configuration list for PBXProject "HelloPoly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81627648187F3F8E00B140E0 /* Debug */,
+				81627649187F3F8E00B140E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8162764A187F3F8E00B140E0 /* Build configuration list for PBXNativeTarget "HelloPoly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8162764B187F3F8E00B140E0 /* Debug */,
+				8162764C187F3F8E00B140E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8162764D187F3F8E00B140E0 /* Build configuration list for PBXNativeTarget "HelloPolyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8162764E187F3F8E00B140E0 /* Debug */,
+				8162764F187F3F8E00B140E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81627610187F3F8E00B140E0 /* Project object */;
+}
