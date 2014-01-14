@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)imageTapEvent:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIImageView *ucdLogo;
+
+@property (weak, nonatomic) IBOutlet UILabel *mainLabel;
 @end

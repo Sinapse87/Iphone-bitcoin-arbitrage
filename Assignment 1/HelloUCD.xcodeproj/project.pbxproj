@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813F8E2A1883449500F055BC /* largeUCDLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F8E291883449500F055BC /* largeUCDLogo.png */; };
+		816636CD188536CD00019A79 /* accomodation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 816636CA188536CD00019A79 /* accomodation.jpg */; };
+		816636CE188536CD00019A79 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 816636CB188536CD00019A79 /* map.png */; };
+		816636CF188536CD00019A79 /* sportcenter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 816636CC188536CD00019A79 /* sportcenter.jpg */; };
 		81C01EC4187DEE98004086AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C01EC3187DEE98004086AD /* Foundation.framework */; };
 		81C01EC6187DEE98004086AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C01EC5187DEE98004086AD /* CoreGraphics.framework */; };
 		81C01EC8187DEE98004086AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C01EC7187DEE98004086AD /* UIKit.framework */; };
@@ -21,7 +25,6 @@
 		81C01EE5187DEE98004086AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C01EC7187DEE98004086AD /* UIKit.framework */; };
 		81C01EED187DEE98004086AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81C01EEB187DEE98004086AD /* InfoPlist.strings */; };
 		81C01EEF187DEE98004086AD /* HelloUCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C01EEE187DEE98004086AD /* HelloUCDTests.m */; };
-		81C01EF9187DF0B5004086AD /* ucdlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C01EF8187DF0B5004086AD /* ucdlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		813F8E291883449500F055BC /* largeUCDLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeUCDLogo.png; sourceTree = "<group>"; };
+		816636CA188536CD00019A79 /* accomodation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = accomodation.jpg; sourceTree = "<group>"; };
+		816636CB188536CD00019A79 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		816636CC188536CD00019A79 /* sportcenter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sportcenter.jpg; sourceTree = "<group>"; };
 		81C01EC0187DEE98004086AD /* HelloUCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C01EC3187DEE98004086AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81C01EC5187DEE98004086AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +61,6 @@
 		81C01EEA187DEE98004086AD /* HelloUCDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloUCDTests-Info.plist"; sourceTree = "<group>"; };
 		81C01EEC187DEE98004086AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81C01EEE187DEE98004086AD /* HelloUCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloUCDTests.m; sourceTree = "<group>"; };
-		81C01EF8187DF0B5004086AD /* ucdlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ucdlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +134,10 @@
 		81C01ECA187DEE98004086AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				81C01EF8187DF0B5004086AD /* ucdlogo.png */,
+				816636CA188536CD00019A79 /* accomodation.jpg */,
+				816636CB188536CD00019A79 /* map.png */,
+				816636CC188536CD00019A79 /* sportcenter.jpg */,
+				813F8E291883449500F055BC /* largeUCDLogo.png */,
 				81C01ECB187DEE98004086AD /* HelloUCD-Info.plist */,
 				81C01ECC187DEE98004086AD /* InfoPlist.strings */,
 				81C01ECF187DEE98004086AD /* main.m */,
@@ -232,9 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				81C01EDC187DEE98004086AD /* Images.xcassets in Resources */,
+				816636CE188536CD00019A79 /* map.png in Resources */,
 				81C01ECE187DEE98004086AD /* InfoPlist.strings in Resources */,
+				816636CD188536CD00019A79 /* accomodation.jpg in Resources */,
 				81C01ED7187DEE98004086AD /* Main.storyboard in Resources */,
-				81C01EF9187DF0B5004086AD /* ucdlogo.png in Resources */,
+				816636CF188536CD00019A79 /* sportcenter.jpg in Resources */,
+				813F8E2A1883449500F055BC /* largeUCDLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +476,7 @@
 				81C01EF4187DEE98004086AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81C01EF5187DEE98004086AD /* Build configuration list for PBXNativeTarget "HelloUCDTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +485,7 @@
 				81C01EF7187DEE98004086AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
