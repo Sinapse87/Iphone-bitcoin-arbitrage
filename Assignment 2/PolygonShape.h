@@ -11,8 +11,8 @@
 @interface PolygonShape : NSObject
 
 @property (nonatomic) int numberOfSides;
-@property (readonly, weak) NSString *name;
-
+@property (readonly, weak) NSString *shapeName;
+- (NSArray *)pointsInRect:(CGRect)rect;
 - (id)initWithNumberOfSides:(int)sides;
 
 @end

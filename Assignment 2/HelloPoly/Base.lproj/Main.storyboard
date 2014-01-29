@@ -16,13 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Number of sides:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gy-fd-1WM">
-                                <rect key="frame" x="91" y="78" width="138" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Number of sides:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gy-fd-1WM">
+                                <rect key="frame" x="57" y="45" width="207" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.042096420142151536" blue="0.060656559975529212" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="xve-Ur-ZlV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc5-Rm-GGC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc5-Rm-GGC">
                                 <rect key="frame" x="20" y="136" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Decrease">
@@ -32,30 +36,64 @@
                                     <action selector="decreaseSides:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JzA-bP-dye"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czb-aw-UE8">
-                                <rect key="frame" x="131" y="187" width="58" height="29"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czb-aw-UE8">
+                                <rect key="frame" x="91" y="86" width="138" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.04772742998" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="YCB-db-gcq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRJ-2G-IKq">
-                                <rect key="frame" x="236" y="136" width="58" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRJ-2G-IKq">
+                                <rect key="frame" x="235" y="136" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="6Ba-3M-CN9"/>
+                                </constraints>
                                 <state key="normal" title="Increase">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="increaseSides:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vdf-2U-E9k"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zMu-XG-unh" userLabel="Polygon View" customClass="PolygonView">
+                                <rect key="frame" x="20" y="180" width="280" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.04209642014" blue="0.060656559979999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="7PI-Q6-6ae"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7gy-fd-1WM" firstAttribute="top" secondItem="5e8-TK-RTw" secondAttribute="bottom" constant="25" id="3o5-Mh-u0l"/>
+                            <constraint firstItem="Czb-aw-UE8" firstAttribute="centerX" secondItem="7gy-fd-1WM" secondAttribute="centerX" id="6hy-kB-MMt"/>
+                            <constraint firstItem="Pc5-Rm-GGC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="MgY-Uu-Btw"/>
+                            <constraint firstItem="Czb-aw-UE8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="91" id="PHq-QC-A1g"/>
+                            <constraint firstItem="7gy-fd-1WM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="57" id="T59-al-m4t"/>
+                            <constraint firstItem="Czb-aw-UE8" firstAttribute="top" secondItem="7gy-fd-1WM" secondAttribute="bottom" constant="20" id="W5Q-xc-H8P"/>
+                            <constraint firstItem="vRJ-2G-IKq" firstAttribute="trailing" secondItem="zMu-XG-unh" secondAttribute="trailing" id="YbC-CC-JR9"/>
+                            <constraint firstItem="Czb-aw-UE8" firstAttribute="centerX" secondItem="zMu-XG-unh" secondAttribute="centerX" id="cSn-gI-vCf"/>
+                            <constraint firstItem="zMu-XG-unh" firstAttribute="leading" secondItem="Pc5-Rm-GGC" secondAttribute="leading" id="eLi-SM-lms"/>
+                            <constraint firstItem="zMu-XG-unh" firstAttribute="top" secondItem="Pc5-Rm-GGC" secondAttribute="bottom" constant="14" id="hoa-Iu-SkT"/>
+                            <constraint firstItem="zMu-XG-unh" firstAttribute="top" secondItem="Czb-aw-UE8" secondAttribute="bottom" constant="69" id="qZR-cI-syF"/>
+                            <constraint firstItem="Pc5-Rm-GGC" firstAttribute="baseline" secondItem="vRJ-2G-IKq" secondAttribute="baseline" id="rZq-D5-u5E"/>
+                            <constraint firstItem="lpq-Mc-YKe" firstAttribute="top" secondItem="zMu-XG-unh" secondAttribute="bottom" constant="108" id="u57-9H-Eoy"/>
+                            <constraint firstAttribute="trailing" secondItem="vRJ-2G-IKq" secondAttribute="trailing" constant="20" symbolic="YES" id="xBK-tt-YZP"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="displayLabel" destination="Czb-aw-UE8" id="pBz-LD-J7q"/>
                         <outlet property="numSidesLabel" destination="7gy-fd-1WM" id="PoS-1Z-UQG"/>
+                        <outlet property="polygonView" destination="zMu-XG-unh" id="z9g-0a-8Ro"/>
+                        <outlet property="view" destination="kh9-bI-dsS" id="7GC-x5-otT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
