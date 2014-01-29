@@ -22,6 +22,7 @@
 		81627647187F3F8E00B140E0 /* HelloPolyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81627646187F3F8E00B140E0 /* HelloPolyTests.m */; };
 		81627653187F4A7700B140E0 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 81627652187F4A7700B140E0 /* PolygonShape.m */; };
 		81627656187F4AB100B140E0 /* HelloPolyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81627655187F4AB100B140E0 /* HelloPolyViewController.m */; };
+		81DEC154189709B9007CDCD6 /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEC153189709B9007CDCD6 /* PolygonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		81627652187F4A7700B140E0 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
 		81627654187F4AB100B140E0 /* HelloPolyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPolyViewController.h; sourceTree = "<group>"; };
 		81627655187F4AB100B140E0 /* HelloPolyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPolyViewController.m; sourceTree = "<group>"; };
+		81DEC15218970981007CDCD6 /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
+		81DEC153189709B9007CDCD6 /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 				81627655187F4AB100B140E0 /* HelloPolyViewController.m */,
 				81627651187F4A7700B140E0 /* PolygonShape.h */,
 				81627652187F4A7700B140E0 /* PolygonShape.m */,
+				81DEC15218970981007CDCD6 /* PolygonView.h */,
+				81DEC153189709B9007CDCD6 /* PolygonView.m */,
 			);
 			name = HelloPolyMVC;
 			path = ..;
@@ -264,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DEC154189709B9007CDCD6 /* PolygonView.m in Sources */,
 				81627653187F4A7700B140E0 /* PolygonShape.m in Sources */,
 				81627628187F3F8E00B140E0 /* main.m in Sources */,
 				8162762C187F3F8E00B140E0 /* HelloPolyAppDelegate.m in Sources */,
@@ -476,6 +482,7 @@
 				8162764C187F3F8E00B140E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8162764D187F3F8E00B140E0 /* Build configuration list for PBXNativeTarget "HelloPolyTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				8162764F187F3F8E00B140E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
