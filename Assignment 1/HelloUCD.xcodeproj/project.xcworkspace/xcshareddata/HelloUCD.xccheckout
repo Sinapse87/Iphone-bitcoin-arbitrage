@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4D7440A6-184C-4A3F-B2D7-A4C01F4F8E38</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloUCD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C73A04A6-2AE4-4B81-A254-FD596ABE120A</key>
+		<string>https://github.com/Sinapse87/COMP41550-Aliberti-Luca-11262176.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assignment 1/HelloUCD.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C73A04A6-2AE4-4B81-A254-FD596ABE120A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sinapse87/COMP41550-Aliberti-Luca-11262176.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C73A04A6-2AE4-4B81-A254-FD596ABE120A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C73A04A6-2AE4-4B81-A254-FD596ABE120A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>COMP41550-Aliberti-Luca-11262176</string>
+		</dict>
+	</array>
+</dict>
+</plist>

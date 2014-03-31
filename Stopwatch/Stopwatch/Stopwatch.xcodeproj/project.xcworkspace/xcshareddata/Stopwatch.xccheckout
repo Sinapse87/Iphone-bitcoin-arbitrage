@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EF31CFBD-D58A-4741-B764-D62E7E39A3FB</string>
+	<string>862DE315-45A5-44CF-9A9C-11F039B85321</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FlickrBrowser</string>
+	<string>Stopwatch</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>448C6B3B-AD2C-478F-8D7D-9FD2554AEEFE</key>
+		<key>C73A04A6-2AE4-4B81-A254-FD596ABE120A</key>
 		<string>https://github.com/Sinapse87/COMP41550-Aliberti-Luca-11262176.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Assignment 3 Part 2/FlickrBrowser/FlickrBrowser.xcodeproj/project.xcworkspace</string>
+	<string>Stopwatch/Stopwatch/Stopwatch.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>448C6B3B-AD2C-478F-8D7D-9FD2554AEEFE</key>
+		<key>C73A04A6-2AE4-4B81-A254-FD596ABE120A</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>448C6B3B-AD2C-478F-8D7D-9FD2554AEEFE</string>
+	<string>C73A04A6-2AE4-4B81-A254-FD596ABE120A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>448C6B3B-AD2C-478F-8D7D-9FD2554AEEFE</string>
+			<string>C73A04A6-2AE4-4B81-A254-FD596ABE120A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>COMP41550-Aliberti-Luca-11262176</string>
 		</dict>
